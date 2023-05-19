@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(180deg, rgba(233,233,208,1) 35%, rgba(103,134,93,1) 98%);
+  font-family: serif, sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: helvetica;  
+}
+
+h3{
+  font-size: 1.5rem;
+  font-family: helvetica;
+  margin: 1rem;
+  text-align: center;
+}
+
+/*styling the home page*/
+
+header > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 6%;
+}
+
+nav{
+  display: block;
+  background-color: rgb(36, 130, 91);
+  padding: 0.50rem;
+  border: 0 0 1rem 0;
+  border-radius: 10px;
+}
+
+nav ul{
+  list-style: none;
+  text-align: center;  
+  background-color: rgb(36, 130, 91);
+  padding: 0.50rem;
+  border-radius: 10px;
+ }
+
+nav li{
+  display: inline-block;
+  margin: 0 1.75rem;
+  font-family: lucida, sans-serif;
+  font-size: 1.5rem;
+  padding: 0.50rem;
+  border-radius: 10px;
+}
+
+nav a{
+  color: rgb(1, 21, 5);
+  text-decoration: none;
+  text-align: center;
+}
+
+a{
+  text-align: center;
+}
+
+a:hover{
+  color: rgb(233, 233, 208);
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article{
+  flex: 1;
+}
+
+.banner{
+  flex: 1;
+  border-radius: 7px;
+  margin: 1rem;
+  max-width: 100wh;
+  min-width: none;
+  max-height: 450px;
+  min-height: none;
+}
+
+.catalog-contact-about{
+  flex: 1;
+  width: 33%;
+  height: 80%;
+  background-color: rgb(65, 94, 55, 75%);
+  margin: 1rem;
+  padding: 0 1rem;
+  border-radius: 10px;
+}
+
+.banner img{
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.catalog-contact-about img{
+  width: 95%;
+  height: 211px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+article a{
+  color: black;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div > a{
+  text-decoration: none;
+  align-items: right;
+  color: rgb(1, 21, 5);
+  background-color: rgb(36, 130, 91);
+  border-radius: 2px;
+  padding: 0.25rem;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 90.5%;
+}
+
+footer{
+  display: flex;
+}
+
+div{
+  flex: 1;
+}
+
+div > img{
+  width: 10%;
+  align-items: left;
+}
+
+#copyright{
+  text-align: right;
+}
+
+p > a{
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Styling the catalog page*/
+
+.indoorplants{
+  max-width: 300px;
+  min-width: none;
+  max-height: 300px;
+  min-height: none;
+}
+
+.indoorplants:hover{
+  transform: scale(1.15);
+  transition: 1s;
+}
+#indoor-outdoor{
+  display: inline-block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: lucida, sans-serif;
+  font-size: 1.25rem;
+  padding: 0.50rem;
+  border-radius: 10px;
+  background-color: rgb(114, 213, 33);
+}
+
+#indoor-outdoor a{
+  color: rgb(1, 21, 5);
+  text-decoration: none;
+  text-align: center;
+}
+
+#indoor-outdoor:hover a{
+  color: rgb(233, 233, 208);
+}
+
+/*styling the contact form page*/ 
+
+input:focus:invalid{
+  border: 2px solid red;
+}
+
+form {
+  width: 50%;
+  margin-left: 25%;
+}
+
+fieldset{
+  border-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid yellowgreen;
+}
+
+
+#data input{
+  width: 100%;
+}
+
+#land input{
+  width: 75px;
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 50%;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: yellowgreen;
+}
+
+button:hover{
+  background-color: rgb(36, 130, 91);
+}

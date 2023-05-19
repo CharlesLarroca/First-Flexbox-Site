@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Lucky Shrub Flex</title>
+</head>
+<body>
+  <header>
+    <img src="logo-green.png">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html"><b>Home Page</b></a></li>
+      <li><a href="catalog.html"><b>Catalog</b></a></li>
+      <li><a href="contact.html"><b>Contact</b></a></li>
+      <li><a href="index.html#about"><b>About us</b></a></li>
+    </ul>
+  </nav>
+  <main>
+    <form method="post">
+    <br>
+    <h2>Contact Us</h2>
+    <br>
+    <p>Wish to turn your old backyard into a Oasis that you a proud of?<br>Book an appointment by filling out the form below.
+    </p>
+      <fieldset id="data">
+        <p><label for="name">Name</label></p>
+        <p><input type="text" name="name" id="name" placeholder="Full name" required></p>
+        <p><label for="email" minlenght="2">E-mail</label></p>
+        <p><input type="email" name="email" id="email" placeholder="example@example" required></p>
+        <p><label for="phone">Phone</label></p>
+        <p><input type="phone" name="phone" id="phone" placeholder="+5511999999999" required></p>
+      </fieldset>
+      <fieldset>
+        <label for="date-of-booking">Date of Booking</label>
+        <p><input type="date" name="date-of-booking" id="date-of-booking" required></p>
+      </fieldset>
+      <fieldset>
+        <p><label for="best-hour">Best Time</label></p>
+        <p><input type="radio" id="morning" name="best-hour" checked required> Morning</p>
+        <p><input type="radio" id="afternoon" name="best-hour"required> Afternoon</p>
+        <p><input type="radio" id="indiferent" name="best-hour" redquired> Indifferent</p>
+      </fieldset>
+      <fieldset>
+        <p><label for="type-of-land"></label>Type of Land</p>
+        <p><input type="radio" id="indoor" name="type-of-land" checked required> Indoor</p>
+        <p><input type="radio" id="outdoor" name="type-of-land" required> Outdoor</p>
+      </fieldset>
+      <fieldset id="land">
+        <p><label for="size">Size of Land</label></p>
+        <p><input type="number" required> m²</p>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+    <div><a href="#top">Top of Page</a></div>
+  </main>
+  <footer>
+    <div><img src="logo-red.png"></div>
+    <div id="copyright">
+      <p>___________________________________________</p>
+      <p>Copyright Lucky Shrub</p>
+      </div>
+  </footer>
+</body>
+</html>
